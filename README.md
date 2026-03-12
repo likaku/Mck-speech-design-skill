@@ -3,7 +3,27 @@
   <p align="center">
     <strong>把 PPT 变成一场有灵魂的演讲——AI 帮你写稿、选风格、注入备注，一气呵成</strong>
   </p>
+
+ 
   <p align="center">
+     ### 社区
+
+<table>
+<tr>
+    <td align="center" width="50%" valign="top">
+      <strong>微信交流群</strong><br/><br/>
+      <img width="180" src="https://github.com/user-attachments/assets/d4eb704e-3825-4380-ac54-2fbbe4c993ce" alt="WeChat Group" />
+    </td>
+    <td align="center" width="50%" valign="top">
+      <strong>Discord</strong><br/><br/>
+      <a href="https://discord.gg/SaFybFAT">
+        <img src="https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+      </a>
+      <br/><br/>
+      <span>点击上方按钮加入</span>
+    </td>
+  </tr>
+</table>
     <em>30 页 PPT · 传统方式 7.5 小时 · 用这个 Skill 15 分钟</em>
   </p>
 </p>
