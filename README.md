@@ -222,4 +222,6 @@ python scripts/speech_to_docx.py <speech.md> [输出.docx]
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026
+[Apache License 2.0](LICENSE) © 2024-2026 [likaku](https://github.com/likaku)
+
+根据 Apache License 2.0 第 4(d) 条，任何衍生作品或再分发必须包含 [NOTICE](NOTICE) 文件中的署名声明。
