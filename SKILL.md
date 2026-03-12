@@ -260,6 +260,8 @@ The final output includes:
 2. **Timing overview table** — Section-by-section time allocation
 3. **Speaker preparation notes** (appendix) — Key data points to memorize, potential Q&A topics, tone reminders, **and a summary of the applied style reference with 5 key phrases to practice**
 
+> **IMPORTANT**: After generating the speech script file, you **MUST** call `open_result_view(target_file="<path>")` to present it to the user. This is the only way the user can see and download the file in the conversation window. Do NOT skip this step even when there is no PPTX input.
+
 ## Stage 4: PPTX Injection (Auto-triggered)
 
 **This stage runs automatically when the user's input was a .pptx file.** No need to ask — just do it.
@@ -350,7 +352,17 @@ for i, slide in enumerate(prs.slides, 1):
 
 If any slide shows ❌ or the file cannot be opened, fall back to manual delivery mode.
 
-4. **Deliver**: Present the output file to the user. The user now has a PPTX with all speech content embedded in speaker notes — ready to present.
+4. **Deliver** *(CRITICAL — must not skip)*: After generating the output files, you **MUST** use the `open_result_view` tool to present each deliverable file to the user. This is the only way the user can receive and download the files in the conversation window.
+
+   ```
+   # For the PPTX file:
+   open_result_view(target_file="<absolute_path_to_output.pptx>")
+
+   # For the Word document:
+   open_result_view(target_file="<absolute_path_to_output.docx>")
+   ```
+
+   > ⚠️ **This step is mandatory.** Without calling `open_result_view`, the user cannot access the generated files — they will only see text output in the chat. Always call it for every deliverable file (PPTX and DOCX).
 
 ### If injection fails
 
@@ -358,6 +370,7 @@ If the Python script encounters errors:
 1. Fall back to manual mode: output the markdown speech script as a separate file
 2. Inform the user that notes could not be auto-injected
 3. Provide the notes JSON file so they can use it with other tools
+4. Still use `open_result_view` to present whatever files were successfully generated
 
 ### Export to Word (Automatic)
 
@@ -377,6 +390,6 @@ The script path is relative to the skill root. It converts the markdown speech f
 - Key data points appendix
 - Speaker notes / tone reminders
 
-The user receives **two deliverables**:
+The user receives **two deliverables** — use `open_result_view` for **each** file:
 1. **PPTX** with speaker notes (Script + Transition only — scannable during presentation)
 2. **Word document** with the full speech content (complete reference for preparation)

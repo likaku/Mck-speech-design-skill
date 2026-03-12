@@ -75,10 +75,10 @@
 ### 三大差异化能力
 
 | | 普通 AI 写稿 | 这个 Skill |
-|:---:|---|---|
-| **🎭 角色感** | 给谁写都一个味道 | 根据你的身份、听众、场景**深度适配**——CEO 和产品经理写出来的稿子完全不同 |
-| **🎤 风格库** | 没有风格选项 | **27 种演讲风格**一键注入——想学 Elon Musk 的第一性原理叙事？想要马云的金句感染力？选一个编号就行 |
-| **💉 端到端** | 写完稿你还要手动贴 | 演讲稿**自动写入 PPT 每一页备注** + **自动导出 Word**——两份交付物，开箱即用 |
+|---|---|---|
+| 🎭 **角色感** | 给谁写都一个味道 | 根据你的身份、听众、场景**深度适配** |
+| 🎤 **风格库** | 没有风格选项 | **27 种演讲风格**一键注入 |
+| 💉 **端到端** | 写完稿你还要手动贴 | 自动写入 PPT 备注 + 自动导出 Word |
 
 ---
 
@@ -107,14 +107,14 @@
 AI 会像一个专业的麦肯锡咨询顾问一样，通过 3-5 轮对话收集关键信息：
 
 | 优先级 | 信息 | 为什么重要 |
-|:------:|------|-----------|
-| P1 | 素材（PPT/文档/截图） | 内容基础 |
+|---|---|---|
+| P1 | 素材（PPT / 文档 / 截图） | 内容基础 |
 | P1 | 演讲语言 + 时长 | 决定字数和节奏 |
 | P1 | 你的身份 + 核心目标 | 定调性 |
 | P2 | 听众画像 + 关系深浅 | 调内容深度 |
 | P2 | 场景类型（Keynote / 汇报 / Pitch） | 选结构模式 |
-| P2 | **🎤 演讲风格参考**（27 选 1） | 注入灵魂 |
-| P3 | 必须讲/绝对不能讲的 | 防踩坑 |
+| P2 | 🎤 演讲风格参考（27 选 1） | 注入灵魂 |
+| P3 | 必须讲 / 绝对不能讲的 | 防踩坑 |
 
 ### Stage 2: Architecture — 搭建「骨架」
 
@@ -153,15 +153,15 @@ AI 会像一个专业的麦肯锡咨询顾问一样，通过 3-5 轮对话收集
 **27 种演讲风格**，覆盖科技圈、商业圈、经典演说家、新生代 KOL——选一个编号，AI 就会把 TA 的节奏、用语习惯和叙事方式融入你的演讲稿。
 
 | # | 分类 | 可选风格 |
-|---|------|----------|
-| **一** | **科技圈领袖** | 1. Elon Musk · 2. Steve Jobs · 3. Donald Trump · 4. Jeff Bezos |
-| **二** | **中国商业领袖** | 5. 马云 · 6. 任正非 · 7. 雷军 · 8. 周鸿祎 · 9. 刘强东 |
-| **三** | **阿里系（按职级）** | 10. P7-P8 · 11. P9 · 12. P10 · 13. P11-P12 |
-| **四** | **字节系** | 14. 张一鸣 · 15. 字节中高层通用 |
-| **五** | **华为系** | 16. 任正非 · 17. 余承东 · 18. 华为中高层通用 |
-| **六** | **腾讯系** | 19. 马化腾 · 20. 腾讯中高层通用 |
-| **七** | **经典演说家** | 21. 马丁·路德·金 · 22. 奥巴马 · 23. 丘吉尔 |
-| **八** | **新生代网红/意见领袖** | 24. 罗振宇 · 25. 俞敏洪 · 26. 李开复 · 27. 罗永浩 |
+|---|---|---|
+| 一 | 科技圈领袖 | Elon Musk · Steve Jobs · Donald Trump · Jeff Bezos |
+| 二 | 中国商业领袖 | 马云 · 任正非 · 雷军 · 周鸿祎 · 刘强东 |
+| 三 | 阿里系（按职级） | P7-P8 · P9 · P10 · P11-P12 |
+| 四 | 字节系 | 张一鸣 · 字节中高层通用 |
+| 五 | 华为系 | 任正非 · 余承东 · 华为中高层通用 |
+| 六 | 腾讯系 | 马化腾 · 腾讯中高层通用 |
+| 七 | 经典演说家 | 马丁·路德·金 · 奥巴马 · 丘吉尔 |
+| 八 | 新生代网红 / 意见领袖 | 罗振宇 · 俞敏洪 · 李开复 · 罗永浩 |
 
 > 不想用？回复「不需要」跳过。风格参考是**调味料**，不是模板——你的演讲稿首先服务于你自己的身份和目标。
 
@@ -181,7 +181,7 @@ AI 不是简单地「模仿说话」，而是：
 
 ### 最简用法
 
-在 CodeBuddy 中直接说：
+在你的 AI IDE 中直接说：
 
 > *"我有一份 30 页的 PPT，明天要给客户做汇报，帮我写一份演讲稿并填入 PPT 备注"*
 
@@ -203,25 +203,35 @@ Skill 会自动触发，一步步引导你完成。
 
 ## 📦 安装
 
-### 方式一：在 CodeBuddy 中安装（推荐）
+这是一个标准的 AI Coding Agent Skill，兼容所有支持 Skill 机制的平台。
 
-将整个文件夹放入 `.codebuddy/skills/` 目录下：
+### 通用安装方式
+
+将整个仓库克隆或下载到你项目的 Skills 目录下：
+
+```bash
+# 以 git clone 为例
+git clone https://github.com/likaku/mck-speech-design-skill.git
+```
+
+然后将文件夹放入对应平台的 Skills 目录：
 
 ```
 your-project/
-├── .codebuddy/
-│   └── skills/
-│       └── mck-speech-design-skill/   ← 放这里
-│           ├── SKILL.md
-│           ├── scripts/
-│           ├── references/
-│           └── ...
+├── .skills/                               ← 具体目录名因平台而异
+│   └── mck-speech-design-skill/
+│       ├── SKILL.md
+│       ├── scripts/
+│       ├── references/
+│       └── ...
 └── ...
 ```
 
-### 方式二：下载 ZIP
+> **不同平台的 Skills 目录位置可能不同**（如 `.skills/`、`.agent/skills/` 等），请参考你所使用平台的文档。支持的平台包括但不限于 OpenClaw、Cloud Cowork 等。
 
-从 [Releases](../../releases) 页面下载，解压到 `.codebuddy/skills/` 下即可。
+### 也可以直接下载 ZIP
+
+从 [Releases](../../releases) 页面下载最新版 ZIP，解压到 Skills 目录下即可。
 
 ### 依赖
 
@@ -237,12 +247,20 @@ pip install python-pptx python-docx
 
 ```
 mck-speech-design-skill/
-├── SKILL.md                          # 🧠 Skill 核心定义（完整工作流 + 规范）
+├── SKILL.md                               # Skill 核心定义（完整工作流 + 规范）
 ├── scripts/
-│   ├── inject_notes.py               # 💉 PPT Speaker Notes 注入（python-pptx API）
-│   └── speech_to_docx.py             # 📄 Markdown → Word 格式化导出
+│   ├── inject_notes.py                    # PPT Speaker Notes 注入
+│   └── speech_to_docx.py                 # Markdown → Word 格式化导出
 ├── references/
-│   └── speech-style-guide.md         # 🎤 27 种演讲风格参考库（8 大分类）
+│   ├── speech-style-guide.md              # 27 种演讲风格参考库
+│   ├── context-gathering-checklist.md     # Briefing 信息收集清单
+│   ├── speech-structure-patterns.md       # 4 种演讲结构模式
+│   └── tone-and-style-guide.md           # 语调与风格指南
+├── examples/
+│   ├── notes_example.json                 # 示例 Notes JSON
+│   └── speech_example.md                 # 示例演讲稿
+├── LICENSE
+├── NOTICE
 └── README.md
 ```
 
@@ -278,8 +296,8 @@ python scripts/speech_to_docx.py <speech.md> [输出.docx]
 
 🎤 **重磅更新：27 种演讲风格参考库**
 - 新增 `references/speech-style-guide.md`：8 大分类、27 种风格
-- 覆盖 Elon Musk、Steve Jobs、马云、任正非、张一鸣等科技/商业领袖
-- 阿里/字节/华为/腾讯分职级风格指南
+- 覆盖 Elon Musk、Steve Jobs、马云、任正非、张一鸣等科技 / 商业领袖
+- 阿里 / 字节 / 华为 / 腾讯分职级风格指南
 - 风格融入方式：签名句式 + 情绪弧线 + 幽默风格 + 词汇层级
 
 ✍️ **实战验证：生成两版 DeepSeek-V4 深度演讲稿**
@@ -287,23 +305,23 @@ python scripts/speech_to_docx.py <speech.md> [输出.docx]
 - `DeepSeek_V4_Speech_Musk.md`：Elon Musk 风格版——验证风格融入效果
 
 🔧 **脚本升级**
-- `inject_notes.py` 改用 `python-pptx` API，彻底解决 ZIP/XML 操作导致的文件损坏
+- `inject_notes.py` 改用 `python-pptx` API，彻底解决文件损坏问题
 - `speech_to_docx.py` 跨平台字体自适应 + 预编译正则优化
 - SKILL.md 整合风格参考功能到完整工作流
 
 ### v1.3 (2026-03-12) — 双文件交付 + 注入加速
 
-- 🚀 `inject_notes.py` 重写：全内存 ZIP 操作，注入速度 < 1 秒
-- ✂️ PPT Notes 精简：只注入 Script + Transition
-- 📄 新增 `speech_to_docx.py`：自动导出格式化 Word
-- 📦 双文件交付：PPT（演示用）+ Word（准备用）
+- `inject_notes.py` 重写：全内存 ZIP 操作，注入速度 < 1 秒
+- PPT Notes 精简：只注入 Script + Transition
+- 新增 `speech_to_docx.py`：自动导出格式化 Word
+- 双文件交付：PPT（演示用）+ Word（准备用）
 
 ### v1.0 (2026-03-12) — 初始发布
 
-- 🎙️ 完整 4 阶段工作流：Briefing → Architecture → Drafting → PPTX Injection
-- 🏛️ McKinsey Pyramid Principle + SCR 框架
-- 📐 4 种演讲模式匹配（Executive Briefing / Keynote / Pitch / Workshop）
-- 💉 PPT Speaker Notes 自动注入
+- 完整 4 阶段工作流：Briefing → Architecture → Drafting → PPTX Injection
+- McKinsey Pyramid Principle + SCR 框架
+- 4 种演讲模式匹配（Executive Briefing / Keynote / Pitch / Workshop）
+- PPT Speaker Notes 自动注入
 
 ---
 
